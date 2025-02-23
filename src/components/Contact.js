@@ -29,7 +29,7 @@ export default function Contact() {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.7942245860545!2d-79.44700052408919!3d43.79788277109566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2c4b24d8697d%3A0xe9c4fbc5acee31c!2s35%20Esther%20Crescent%2C%20Thornhill%2C%20ON%20L4J%203J8!5e0!3m2!1sen!2sca!4v1739630820894!5m2!1sen!2sca"
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
-            <div className="lg:w-1/2 px-6">
+            <div className="lg:w-1/3 px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">ADDRESS</h2>
               <p className="mt-1">35 Esther Crescent <br /> Thornhill, ON L4J 3J8</p>
             </div>
