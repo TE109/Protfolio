@@ -4,13 +4,14 @@ export default function Contact() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const formData = new FormData(e.target);
-
+    e.target.reset(); // Clears the form
+    alert("sending Message")
     try {
       await fetch("https://formsubmit.co/edelmantomer323@gmail.com", {
         method: "POST",
         body: formData,
       });
-      e.target.reset(); // Clears the form
+      
     } catch (error) {
       alert("Error submitting form: " + error);
     }
@@ -41,7 +42,9 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <form onSubmit={handleSubmit} className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+        <form onSubmit={handleSubmit} 
+        className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
+        netify>
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">Hire Me</h2>
           <p className="leading-relaxed mb-5">TODO: Add paragraph about why to hire me</p>
           <input type="hidden" name="_captcha" value="false" />
