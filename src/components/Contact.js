@@ -46,7 +46,12 @@ export default function Contact() {
         className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
         netify>
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">Hire Me</h2>
-          <p className="leading-relaxed mb-5">TODO: Add paragraph about why to hire me</p>
+          <p className="leading-relaxed mb-5">
+            As a recent graduate with a degree in Computer Science, 
+            I am eager to apply my knowledge and skills in software development and problem-solving. <br></br>
+            I have spent the last few years not only mastering fundamental concepts 
+            but also gaining hands-on experience in areas such as Backend functinality, Database development.
+            </p>
           <input type="hidden" name="_captcha" value="false" />
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">Name</label>

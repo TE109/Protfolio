@@ -11,7 +11,10 @@ export default function About() {
             <br className="hidden lg:inline-block" /> Im passionate about learning and growing my skills 
           </h1>
           <p className="my-8 leading-relaxed text-2xl">
-            TODO: add paragraph describing myself and personal experince 
+            A motivated and enthusiastic recent entrant to the professional world
+            eager to use knowledge and skills gained in the achedmic environment at George Browns Computer Programming and Analysis.
+            Hard-working and dedicated person with excellent interpersonal skills. 
+            Hoping to pursue employment with a successful company that believes in hands-on learning
           </p>
 
           {/* Buttons */}
