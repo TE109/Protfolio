@@ -7,7 +7,7 @@ export const projects = [
       "This application interfaces with a weather API to retrieve real-time weather data. It then presents this data to users in a clean, formatted interface for easy access to weather information.",
     image: "./gif-files/Weather_app.gif",
     link: "https://github.com/TE109/Apple-and-Web-weather-app.git",
-  }, 
+  },
   {
     title: "Socket.io Chat app ",
     subtitle: "1 to 1 and 1 to group chat messaging app",
