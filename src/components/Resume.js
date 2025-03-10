@@ -60,20 +60,31 @@ const Resume = () => {
                     {/* Cover Letter Section */}
                     <section className="mt-8">
                         <h2 className="text-2xl font-semibold text-green-500">Cover Letter</h2>
-                        <p className="leading-relaxed text-xl mt-4">Dear [Hiring Manager],</p>
+
+                        <p className="leading-relaxed text-xl mt-4">To Whom It May Concern,</p>
                         <p className="leading-relaxed text-xl mt-2">
-                            I am writing to express my interest in the Software Developer position. With a solid foundation in computer science from George Brown College and a diverse skill set, I am eager to contribute my abilities to your team. The skills I honed from my past experiences have given me the ability to manage time effectively, follow detailed instructions, and utilize my computer skills, which I believe prepare me well for the technical challenges in software development. In addition to my expertise in Java, MySQL, JavaScript, and HTML, I possess strong interpersonal skills, adaptability, and a keen attention to detail—qualities that are crucial for succeeding in dynamic tech environments. My time at George Brown College further solidified my technical foundation, equipping me with both theoretical and practical knowledge in software engineering. I am particularly drawn to this opportunity as it allows me to leverage my technical skills in a meaningful way. I am hard-working, dedicated, and enthusiastic about the possibility of contributing to your team and growing professionally.
+                            I am writing to express my interest in the Software Developer position. With a strong foundation in computer science from George Brown College and a diverse set of technical skills, I am eager to contribute my expertise to your team. Throughout my academic and professional experiences, I have developed the ability to manage time effectively, follow detailed instructions, and leverage my technical knowledge to tackle complex challenges.
                         </p>
-                        <p className="leading-relaxed text-xl mt-2">Thank you for considering my application. I look forward to the possibility of discussing how I can contribute to your team.</p>
+                        <p className="leading-relaxed text-xl mt-2">
+                            My proficiency in Java, MySQL, JavaScript, and HTML, coupled with my adaptability and strong interpersonal skills, positions me well to thrive in dynamic and fast-paced tech environments. In addition, my attention to detail and problem-solving abilities enable me to consistently deliver high-quality work. My education at George Brown College has provided me with both theoretical and practical knowledge in software engineering, further enhancing my technical acumen.
+                        </p>
+                        <p className="leading-relaxed text-xl mt-2">
+                            I am particularly drawn to this opportunity because it will allow me to apply my skills in a meaningful way, while also offering the chance for professional growth. I am dedicated, hardworking, and enthusiastic about the prospect of joining your team and making a valuable contribution.
+                        </p>
+                        <p className="leading-relaxed text-xl mt-2">
+                            Thank you for considering my application. I look forward to the opportunity to discuss how my skills and experiences align with your team's needs.
+                        </p>
                         <p className="leading-relaxed text-xl mt-2">Sincerely,</p>
                         <p className="leading-relaxed text-xl mt-2">Tomer Edelman</p>
+
+
                     </section>
 
                     {/* Career Goal Section */}
                     <section className="mt-8">
                         <h2 className="text-2xl font-semibold text-green-500">Statement of Career Goal</h2>
                         <p className="leading-relaxed text-xl mt-4">
-                            I would like to contribute to innovative projects by adding unique experiences, such as ..., and understanding how to simplify complex ideas to allow them to reach wider audiences.
+                            I would like to contribute to innovative projects by adding my unique experiences, teaching STEM (Science, Technology, Engineering, and Math) to children, my strong communication skills, and my ability to simplify complex concepts to engage and connect with broader audiences.
                         </p>
                     </section>
 
