@@ -19,18 +19,6 @@ const Resume = () => {
                             <li>Assisted in setting up activities</li>
                             <li>Supported participants and explained concepts to Campers</li>
                         </ul>
-
-                        <h4 className="text-xl mt-4">Counselor - Chef Upstairs, Toronto, ON (June 2022 to August 2022)</h4>
-                        <ul className="list-disc pl-5">
-                            <li>Assisted in food prep, teaching, and organization</li>
-                            <li>Supported campers and maintained cleanliness</li>
-                        </ul>
-
-                        <h4 className="text-xl mt-4">Line Cook - Dr. Laffa, Ontario (September 2021 to January 2022)</h4>
-                        <ul className="list-disc pl-5">
-                            <li>Prepared ingredients and assisted in food preparation</li>
-                            <li>Maintained kitchen appliances and cleaned dishes</li>
-                        </ul>
                     </div>
 
                     {/* Education Section */}
@@ -58,7 +46,7 @@ const Resume = () => {
                     </div>
 
                     {/* Cover Letter Section */}
-                    <section className="mt-8">
+                    {/* <section className="mt-8">
                         <h2 className="text-2xl font-semibold text-green-500">Cover Letter</h2>
 
                         <p className="leading-relaxed text-xl mt-4">To Whom It May Concern,</p>
@@ -77,14 +65,14 @@ const Resume = () => {
                         <p className="leading-relaxed text-xl mt-2">Sincerely,</p>
                         <p className="leading-relaxed text-xl mt-2">Tomer Edelman</p>
 
-
-                    </section>
+                    </section> */}
 
                     {/* Career Goal Section */}
                     <section className="mt-8">
                         <h2 className="text-2xl font-semibold text-green-500">Statement of Career Goal</h2>
                         <p className="leading-relaxed text-xl mt-4">
-                            I would like to contribute to innovative projects by adding my unique experiences, teaching STEM (Science, Technology, Engineering, and Math) to children, my strong communication skills, and my ability to simplify complex concepts to engage and connect with broader audiences.
+                            I would like to contribute to innovative projects by adding my unique experiences,<br>
+                            </br> teaching STEM (Science, Technology, Engineering, and Math),my strong communication skills,<br></br> and my ability to simplify complex concepts to engage so as to connect with broader audiences.
                         </p>
                     </section>
 

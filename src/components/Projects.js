@@ -44,7 +44,7 @@ export default function Projects() {
 
         {/* Capstone Details Section */}
 
-        <h3 className="mt-10 text-white text-xl font-semibold mb-2">IRES Electronic Receptionist Capstone Project</h3>
+        {/* <h3 className="mt-10 text-white text-xl font-semibold mb-2">IRES Electronic Receptionist Capstone Project</h3>
         <div className="mt-10 text-white grid grid-cols-4 gap-6 justify-items-center">
           <div className="flex flex-col items-center">
             <h4 className="text-lg font-medium mb-4">Project Summary</h4>
@@ -136,7 +136,7 @@ export default function Projects() {
               GitHub Front End Project
             </a>
           </div>
-        </div>
+        </div> */}
 
 
       </div>
